@@ -9,7 +9,7 @@
 """
 
 
-def maximo(n1, n2):
+def maxi(n1, n2):
     if n1 < n2:
         print(f"El valor máximo es {n2}")
         return n2
@@ -19,7 +19,7 @@ def maximo(n1, n2):
     else:
         return "son iguales"
 
-print(maximo(8, 5))
+print(maxi(8, 5))
 
 
 # EJERCICIO 2

@@ -1,29 +1,24 @@
-from operator import invert
+# Ejercicio 19 - funcion inversa de una cadena 
+
+from cgitb import text
+from operator import inv, invert
+from plistlib import InvalidFileException
+from re import I
+
+def invert_cadena(text):          #función inversa para una cadena : text
+    salida = ''                   #designamos signo cadena vacia
+    i = len[text]                 #cantidad total de caracters que tiene el texto 
+    while i > 0:                  #ciclo while preguntamos se elvalor i es >0 
+       salida += i [text[-1]]         #si se cumple concatenamos a la variable salida el contenido de text en la posicion que indique el indice
+       i  -= 1                    # reducimos en una unidad el contenido de la variable indice
+    return salida
+
+lenguaje = 'ovlop'
+print(invert_cadena(lenguaje))
+
+print(invert_cadena('polvo'))
 
 
-1) Definir una función inversa() que calcule la inversión de una cadena. 
-Por ejemplo la cadena "estoy probando" debería devolver la cadena "odnaborp yotse"
-
-
-def función inversa(palabra):
-
-    rev = []
-	letras = list(palabra)
-	for i in range(len(letras)-1, -1, -1):
-		rev.append(letras[i])
-
-	cadena = "".join(rev)
-	print "Del revés: ",cadena
-
-    
-
-
-2) Definir una función es_palindromo() que reconoce palíndromos (es decir, palabras que tienen 
-el mismo aspecto escritas invertidas), 
-ejemplo: es_palindromo ("radar") tendría que devolver True.
-
-3) Definir una función superposicion() que tome dos listas y devuelva True si tienen al menos 
-1 miembro en común o devuelva 
-False de lo contrario. Escribir la función usando el bucle for anidado.
-
-
+#Ejercicio 2 -  Definir una función es_palindromo() que reconoce palíndromos (es decir, 
+# palabras que tienen el mismo aspecto escritas invertidas), 
+# ejemplo: es_palindromo ("radar") tendría que devolver True.

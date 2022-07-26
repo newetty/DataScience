@@ -1,21 +1,20 @@
 # Ejercicio 19 - funcion inversa de una cadena 
-def invert_cadena(text):          #funcion inversa para una cadena : text
-    salida = ''                   #designamos signo cadena vacia
-    text = 'Lycee'
-    i == len(text)                #cantidad total de caracters que tiene el texto 
-    while i >= 0:                  #ciclo while preguntamos se elvalor i es >0 
-       salida += i [text[-1]]         #si se cumple concatenamos a la variable salida el contenido de text en la posicion que indique el indice
-       i  -= 1                       # reducimos en una unidad el contenido de la variable indice
 
+def invert_text(text):
+    if len(text)== 0:
 
-                    
-    return salida
-    text = 'Lycee'
+        return(text)
 
-lenguaje = 'ovlop'
-print(invert_cadena(lenguaje))
+    else:
+        return invert_text[1:] + text[0]
+    text = "luciana"
+ 
+def inversa2(cadena):
+    return cadena[::-1]
 
-print(invert_cadena('polvo'))
+resultado = inversa2("Hola mundo2")
+print(resultado)
+
 
 
 

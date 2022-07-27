@@ -2,28 +2,28 @@
     realiza los siguientes ejercicios"""
 
 # EJERCICIO 1
-#    
-def generar_n_caracteres("n", caracter):
-        return n * 5 
+def generar_n_caracteres(n, caracter):
+        return n * caracter
+
 print(generar_n_caracteres(5, 'x'))
-pass
+
 
 
 # EJERCICIO 2
 
-""""""   Definir un diagrama procedimiento() que tome una lista de números enteros
+
+"""
+    Definir un diagrama procedimiento() que tome una lista de números enteros
     e imprima un diagrama en la pantalla. Ejemplo: procedimiento([4, 9, 7])
     debería imprimir lo siguiente:
 """
-
-def procedimiento(lista):
-    # TODO: tome una lista de numeros enteros
-    # TODO: imprimir en la pantalla:
-
-    # XXXX
-    # XXXXXXXXX
-    # XXXXXXX
-    pass
+def procedimiento (lista):
+    for i in [lista]:
+        return (i * 'x')
+    
+    procedimiento ([4,9,7])
+pass
+    
 
 # EJERCICIO 3
 
@@ -31,8 +31,17 @@ def procedimiento(lista):
     Escribir una función mas_larga() que tome una lista de palabras y devuelva la mas larga.
 """
 
-def mas_larga(lista):
-    # TODO: tome una lista de palabras
+def mas_larga(palabra):
+    palabra_mas_larga= []
+
+    for i in palabra_mas_larga:
+        if len(i) <= len(palabra_mas_larga):
+            palabra_mas_larga = i 
+            return( palabra_mas_larga)
+    print(palabra_mas_larga(["amor", "comida", "vino"]))
+
+    
+
     # TODO: devolver la más larga
     pass
 

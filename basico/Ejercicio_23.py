@@ -3,6 +3,9 @@
 #nombre, edad, asignatura y nota son las propiedades Instanciamos.los posibles alumnos (alumno1, alumno2, alumno3..) --> son los "objetos"
 #y el.init los inicializa """  #
 #
+from tokenize import String
+
+
 class Alumnos:
 
     def __init__(self, nombre, edad, asignatura, nota):
@@ -42,23 +45,11 @@ if palabra in range(palabra [0, -1, -1]):
    # print('palabra')
 
 
-    
-
-##""4) Escribir un prpgrama que pregunte el nombre completo del usuario en la consola y después muestre por pantalla el nombre completo #del usuario tres veces, una con todas las letras minúsculas, otra con todas las letras mayúsculas y otra solo con la primera letra del
-#nombre y de los apellidos en mayúscula. El usuario puede introducir su nombre combinando mayúsculas y minúsculas como quiera.""
-
-
-nombre_completo = int(input("¿Cual es tu nombre completo?  "))
-
-#print(nombre_completo.lower)
-#print(nombre_completo.upper)
-#print(nombre_completo.title)
-
 #5) Los teléfonos de una empresa tienen el siguiente formato prefijo-número-extension donde el prefijo es el código del país +34, y la
 #extensión tiene dos dígitos (por ejemplo +34-913724710-56). Escribir un programa que pregunte por un número de teléfono con este
 #formato y muestre por pantalla el número de teléfono sin el prefijo y la extensión.""
 #xxx- 
-numero_telefono = int(input("¿Cual es el numero_telefono #xx-xxxxxxxxx-xx?"))
+#numero_telefono = int(input("¿Cual es el numero_telefono #xx-xxxxxxxxx-xx?"))
 #print('Su umero de telefono' [4:-3])
 
 
@@ -71,19 +62,31 @@ vocal = input("Ingrese una vocal minuscula: ")
 
 #print(frase.replace(vocal, vocal.upper()))
 
- #Escribir un programa que pregunte por consola el precio de un producto en euros con dos decimales y muestre por pantalla el número
+ # 4Escribir un programa que pregunte por consola el precio de un producto en euros con dos decimales y muestre por pantalla el número
 #de euros y el número de céntimos del precio introducido.#
 
+String = input(" Nombre y apellido: ")
 
-nombre_completo = input(" Nombre y apellido: ")
-
-
+ 
 i=1
 while i<= 3:
-    print(nombre_completo)
+    print(String))
     i+=1
 
-print("en minusculas: " + nombre_completo.lower())
-print("en mayusculas: " + nombre_completo.upper())
-print("Primeras letras mayusculas: " + nombre_completo.title())
+print("en minusculas: " + nombre.capitalize())
+print("Primeras letras mayusculas: " + nombre.title())
+print("en mayusculas: " + nombre.upper())
 
+#7) Escribir un programa que pregunte por consola el precio de un producto en euros 
+# con dos decimales y muestre por pantalla el número
+#de euros y el número de céntimos del precio introducido.
+
+
+precio = input("¿Cual es el precio en euros con dos decimales?")
+
+
+parte entero =  (precio[:precio.find('.')] )
+
+parte decimal = (precio[precio.find('.')+1:])
+
+#print("el total es: " + entero + " con: " + decimal + " centavos")")

@@ -39,9 +39,9 @@ alumno3 = Alumnos("Carlos", 25, "geografia", "C")
 #""Escribir un programa que pida al usuario una palabra y luego muestre por pantalla una a una las letras de la palabra introducida
 #empezando por la última""
 
-palabra =(input('¿Cual es la palabra?  '))
+#palabra =(input('¿Cual es la palabra?  '))
 
-if palabra in range(palabra [0, -1, -1]):
+#if palabra in range(palabra [0, -1, -1]):
    # print('palabra')
 
 
@@ -56,21 +56,23 @@ if palabra in range(palabra [0, -1, -1]):
 
 #6) Escribir un programa que pida al usuario que introduzca una frase en la consola y una vocal, y después muestre por pantalla la misma
 #rase pero con la vocal introducida en mayúscula.
-
-frase = input("Ingrese una frase: ")
-vocal = input("Ingrese una vocal minuscula: ")
+def frase():
+    frase = input("Ingrese una frase: ")
+    vocal = input("Ingrese una vocal minuscula: ")
 
 #print(frase.replace(vocal, vocal.upper()))
 
  # 4Escribir un programa que pregunte por consola el precio de un producto en euros con dos decimales y muestre por pantalla el número
 #de euros y el número de céntimos del precio introducido.#
 
-String = input(" Nombre y apellido: ")
+    def string():
+    
+    string = input(" Nombre y apellido: ")
 
  
-i=1
-while i<= 3:
-    print(String))
+    i=1
+    while i<= 3:
+        print(string)
     i+=1
 
 print("en minusculas: " + nombre.capitalize())
@@ -81,12 +83,14 @@ print("en mayusculas: " + nombre.upper())
 # con dos decimales y muestre por pantalla el número
 #de euros y el número de céntimos del precio introducido.
 
+def precio_euros ():
+    pass
 
-precio = input("¿Cual es el precio en euros con dos decimales?")
+    precio = input("¿Cual es el precio en euros con dos decimales?")
 
 
-parte entero =  (precio[:precio.find('.')] )
+ parte_entero =  (precio[:precio.find('.')] )
 
-parte decimal = (precio[precio.find('.')+1:])
+    parte_decimal = (precio[precio.find('.')+1:])
 
-#print("el total es: " + entero + " con: " + decimal + " centavos")")
+    #print("el total es: " + entero + " con: " + decimal + " centavos")")

@@ -1,9 +1,9 @@
 
-#1) Desarrolla el siguiente ejercicios de POO: Alumnos -> Es la clase. init -> Es el método init
+"""1) Desarrolla el siguiente ejercicios de POO: Alumnos -> Es la clase. init -> Es el método init
 #nombre, edad, asignatura y nota son las propiedades Instanciamos.los posibles alumnos (alumno1, alumno2, alumno3..) --> son los "objetos"
-#y el.init los inicializa """  #
-#
-from tokenize import String
+#y el.init los inicializa """  
+
+
 
 
 class Alumnos:
@@ -29,12 +29,11 @@ alumno3 = Alumnos("Carlos", 25, "geografia", "C")
 #print(alumno2.nota)
 #print(alumno3.nota)
 
-#"""2) Escribir un programa que pregunte al usuario su edad y muestre por pantalla todos los años que ha
-# cumplido (desde 1 hasta su edad)."""
-
-#age = int(input("¿Cuántos años tienes? "))
-#for i in range(age):
-   #print("Cumples " + str(i+1) + " años")
+"""2) Escribir un programa que pregunte al usuario su edad y muestre por pantalla todos los años que ha
+ cumplido (desde 1 hasta su edad)."""
+def edad():
+    age = int(input("¿Cuántos años tienes? "))#for i in range(age):
+    print("Cumples " + str(i+1) + " años")
 
 #""Escribir un programa que pida al usuario una palabra y luego muestre por pantalla una a una las letras de la palabra introducida
 #empezando por la última""

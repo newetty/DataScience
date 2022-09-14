@@ -41,7 +41,7 @@ def max_de_tres(n1, n2, n3):
     else:
         return "Son iguales"
 
-print(max_de_tres(8, 5, 9))
+#print(max_de_tres(8, 5, 9))
 
 # EJERCICIO 3
 
@@ -55,13 +55,14 @@ print(max_de_tres(8, 5, 9))
 
 def largo_cadena(lista):
     cont = 0
+
     for i in lista:
         cont += 1
     return cont
 
-print(largo_cadena("hola mundo"))
-print(largo_cadena([25, 30]))
-print("len: ", len([25, 30]))
+#print(largo_cadena("hola mundo"))
+#print(largo_cadena([25, 30]))
+#print("len: ", len([25, 30]))
 
 # EJERCICIO 4
 
@@ -79,8 +80,8 @@ def es_vocal(x):
     else:
         return False
 
-print("Es vocal: ", es_vocal("a"))
-print("Es consonante: ", es_vocal("b"))
+#print("Es vocal: ", es_vocal("a"))
+#print("Es consonante: ", es_vocal("b"))
 
 # EJERCICIO 5
 
@@ -102,7 +103,7 @@ def multip(lista):
         multiplicacion *= i
     return multiplicacion
 
-print("suma: ", suma([8, 5]))
-print("multiplicacion: ", multip([8, 5]))
+#print("suma: ", suma([8, 5]))
+#print("multiplicacion: ", multip([8, 5]))
 
-print("Enhorabuena acabaste los ejercicios")
+#print("Enhorabuena acabaste los ejercicios")

@@ -11,7 +11,7 @@ def invert_text(text):
  
 def inversa2(cadena):
     return cadena[::-1]
-
+#funcion_inversa('Esto es una cadena')
 #resultado = inversa2("Hola mundo2")
 #print(resultado)
 

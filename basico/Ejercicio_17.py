@@ -10,8 +10,10 @@ class Matematicas:
     def funcion_resta(x):
         y = x - 10
         return y
-    Matematicas.funcion_suma(8)
 
+print ("Estamos dentro de la clase de matematicas")    
+print("Suma 5:", Matematicas.funcion_suma(10)) 
+print("Suma 5:", Matematicas.funcion_resta(10)) 
     Matematicas.funcion_resta(9)
 
 
@@ -30,7 +32,7 @@ class materias(libros):
         nombre = "Big Data"
         return(nombre)
 
-libros.funcion_tipos()
+print("Resultados de clase libro, funcion tipos: " , libros.funcion_tipos())
 
-libros.funcion_asignatura()
 
+print("Resultados de clase libro, funcion tipos: " , libros.funcion_asignatura())

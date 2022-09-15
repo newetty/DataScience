@@ -63,15 +63,13 @@ def frase():
  # 4Escribir un programa que pregunte por consola el precio de un producto en euros con dos decimales y muestre por pantalla el número
 #de euros y el número de céntimos del precio introducido.#
 
-    def string():
+   # def string():
     
-    string = input(" Nombre y apellido: ")
-
- 
-    i=1
-    while i<= 3:
-        print(string)
-    i+=1
+   # stro = input(" Nombre y apellido: ")
+      #   i=1
+    #while i<= 3:
+     #   print(string)
+      #   i+=1
 
 #print("en minusculas: " + nombre.capitalize())
 #print("Primeras letras mayusculas: " + nombre.title())
@@ -87,7 +85,8 @@ def precio_euros ():
     precio = input("¿Cual es el precio en euros con dos decimales?")
 
 
- parte_entero =  (precio[:precio.find('.')] )
+ parte_entero =  precio(:precio.find('.'))
+
 
     parte_decimal = (precio[precio.find('.')+1:])
 

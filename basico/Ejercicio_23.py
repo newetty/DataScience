@@ -15,7 +15,6 @@ class Alumnos:
         self.nota = nota
 
 
-
 #"""A continuación muestra la edad del alumno 2 y el alumno 3 y sus notas"""
 
 
@@ -23,17 +22,17 @@ alumno1 = Alumnos("Juan", 30, "matematica", "A")
 alumno2 = Alumnos("María", 45, "ciencias", "B")
 alumno3 = Alumnos("Carlos", 25, "geografia", "C")
 
-#print(alumno2.edad)
-#print(alumno3.edad)
-#print(alumno1.nota)
-#print(alumno2.nota)
-#print(alumno3.nota)
+print(alumno2.edad)
+print(alumno3.edad)
+print(alumno1.nota)
+print(alumno2.nota)
+print(alumno3.nota)
 
 """2) Escribir un programa que pregunte al usuario su edad y muestre por pantalla todos los años que ha
  cumplido (desde 1 hasta su edad)."""
 def edad():
     age = int(input("¿Cuántos años tienes? "))#for i in range(age):
-    print("Cumples " + str(i+1) + " años")
+   # print("Cumples " + str(i+1) + " años")
 
 #""Escribir un programa que pida al usuario una palabra y luego muestre por pantalla una a una las letras de la palabra introducida
 #empezando por la última""
@@ -74,9 +73,9 @@ def frase():
         print(string)
     i+=1
 
-print("en minusculas: " + nombre.capitalize())
-print("Primeras letras mayusculas: " + nombre.title())
-print("en mayusculas: " + nombre.upper())
+#print("en minusculas: " + nombre.capitalize())
+#print("Primeras letras mayusculas: " + nombre.title())
+#print("en mayusculas: " + nombre.upper())
 
 #7) Escribir un programa que pregunte por consola el precio de un producto en euros 
 # con dos decimales y muestre por pantalla el número

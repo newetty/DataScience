@@ -18,8 +18,8 @@ def maxi(n1, n2):
         return n1
     else:
         return "son iguales"
-
-print(maxi(8, 5))
+#Desconectar para ejecutar
+#print(maxi(8, 5))
 
 
 # EJERCICIO 2
@@ -59,7 +59,7 @@ def largo_cadena(lista):
     for i in lista:
         cont += 1
     return cont
-
+#Desconectar para imprimir
 #print(largo_cadena("hola mundo"))
 #print(largo_cadena([25, 30]))
 #print("len: ", len([25, 30]))

@@ -167,21 +167,38 @@ class Persona:
 Si no tiene el dinero suficiente no se ejecuta la acción."""
 class Persona:
     
-    def __init__(self, nombre, edad, saldo):
+    def __init__(self, nombre, edad, saldo, monto):
         self.nombre = nombre
         self.edad = edad
+        self.monto = monto
         self.saldo = saldo
 
     def aumenta_cumpleanhos(self):
         self.edad += 1
 
-p = Persona("Jose", 10)
-p.aumenta_cumpleanhos()
-print(p.edad)
+    #p = Persona("Jose", 10, 8)
+    #p.aumenta_cumpleanhos()
+    #print(p.edad)
     
-def metodo_transferencia(self, persona2, monto):
+    def metodo_transferir(self, persona2, monto):
+
         if self.saldo>=monto:
-            persona2.saldo -=monto
+            persona2.saldo -= monto
             print("transfere el monto")
         else:
             print("No se transfere el monto")
+
+    def __str__(self):
+
+        return "Persona: " + self.nombre
+
+p = Persona("Sandra", 10, 30,9)
+p2 = Persona("D.Joana", 20, 80,80)
+#p2.metodo_transfererir(p, 7) # No acepta
+p2.metodo_transferir(p, 70)
+print("Saldo de p2: ")
+print(p2.saldo)
+print("Saldo de p1: ")
+print(p.saldo)
+
+    

@@ -30,7 +30,9 @@ libro1 = Rosalia("Oceanarium", "Ciencia", "Impedimenta", 2021)
 libro2 = Rosalia("Botones", "Novela negra" , "Atlantis", 2022 )
 libro3 = Rosalia("Venganza Compostela", "Historia", "Universo letras", 2022)
 
-print(libro1.imprimir())
+#print(libro1.imprimir())
+#print((libro2.imprimir()))
+print((libro3.imprimir()))
 
 """2) Crea otra libraría de nombre MiLibro, que corresponde a una nueva clase, define una función de nombre misLibros,
  cuyo resultado sea los datos de los libros:
@@ -38,9 +40,9 @@ print(libro1.imprimir())
  libro5 --> Gatos, Literatura, Listado, 2018 """
 
 
-"""class  MiLibro:
-    def mislibros(self:
-       # return 
+ """class  MiLibro:
+    def mislibros(self):
+       print()
 #libro4 = MiLibro ("Mi primera Novela", "Novela", "Bruño", 2019)
 libro5 = Milibro("Gatos", "literatura","Listado", 2018)"""
 
@@ -62,7 +64,7 @@ Además la retirada de dinero sólo se podrá hacer si el titular es válido.
 El método mostrar() debe devolver el mensaje de “Cuenta Joven” y la bonificación de la cuenta.
 Piensa los métodos heredados de la clase madre que hay que reescribir."""
 
-"""class CuentaJoven():
+class CuentaJoven():
     def __init__(self, titular, cantidad, bonificación, edad):
         self.titular = titular
         self.cantidad = cantidad
@@ -72,11 +74,11 @@ Piensa los métodos heredados de la clase madre que hay que reescribir."""
     def metodo_esTitularValido(CuentaJoven):
         if self.edad > 25 == True:
             
-            print( self.edad, "Es mayor que 25 años")
+            print(self.edad, "Es mayor que 25 años")
         
         else:
             
             print(self.edad, "Es menos que 25 años")
-"""
 
-     
+
+    def      

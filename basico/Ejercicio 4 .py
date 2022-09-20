@@ -203,8 +203,6 @@ esPalindromo(level)
 A = "Level"
 
 
-# In[110]:
-
 
 # lista vacia para invertir la lista inicial
 
@@ -221,10 +219,6 @@ while len(A1)<len(A):
     i-=1                      # i = i-1 ( decremento )
     
 A1
-
-
-# In[116]:
-
 
 # !=  is not equal que 
 different = 0 # inicializamos la variable

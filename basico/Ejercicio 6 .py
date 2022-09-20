@@ -1,11 +1,10 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# Ejercicio 1
-# Mínimo de una lista de números (lista de nombre "listado")
-# 30, 20, 10, 50, 40
-# 1) Escribe el listado e ímprimelo
-# 
+""" Ejercicio 1  Mínimo de una lista de números (lista de nombre "listado")
+ 30, 20, 10, 50, 40
+"""" 1) Escribe el listado e ímprimelo"""
+ 
 
 # In[23]:
 

@@ -34,3 +34,4 @@ alumno4 = Alumnos("Toni", 27, "Geografia", 5)
 """A continuación muestra la edad del alumno 2 y el alumno 3 y sus"""
 
 print(alumno2.edad)
+print(alumno2.edad)

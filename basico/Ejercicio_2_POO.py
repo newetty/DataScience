@@ -88,8 +88,8 @@ class Numero_Complejo:
 v1 = Numero_Complejo(6, 9)
 v2 = Numero_Complejo(6, 9)
 #Desconectar para ejecutar
-#print(v1==v2)
-#print(v1.comparacion(v2))
+print(v1==v2)
+print(v1.comparacion(v2))
 
 """5) Realiza un método que sume dos numeros complejos sin modificiar los objetos originales, 
 ya que se retorna un nuevo numero NumeroComplejo."""
@@ -141,6 +141,8 @@ class Persona:
 
     def aumenta_cumpleanhos(self):
         self.edad += 1
+        
+    
 ##Desconectar para ejecutar
 #p = Persona("Jose", 10)
 #p.aumenta_cumpleanhos()

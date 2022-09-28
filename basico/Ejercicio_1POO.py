@@ -101,7 +101,7 @@ class Cuenta:
 titular1 = Cuenta("José Luis")
 
 titular1.Cuenta
-Un constructor, donde los datos pueden estar vacíos.
+ 4)Un constructor, donde los datos pueden estar vacíos.
 El atributo no se puede modificar directamente, sólo ingresando o retirando dinero.
 mostrar(): Muestra los datos de la cuenta.
 ingresar(cantidad): se ingresa una cantidad a la cuenta, si la cantidad introducida es 

@@ -13,15 +13,20 @@ import numpy as np
 # realizar un histagrama:"""
 #opcion 1 
 
-df = pd.DataFrame({"x": [31,10,85,25,4,83,32,43,66,18,93,
-                        6,42,27,21,42,53,32,85,32,42,58,67,17,4,5]})
 
-##plt.hist(df, bins=2,
-#color="green",
-##histtype="bar",
-#rwidth= 0.25)
-#plt.show()
+df = pd.DataFrame({"x": [31,10,85,25,4,83,32,43,66,18,93,6,42,27,
+                        21,42,53,32,85,32,42,58,67,17,4,5]})
+                    
+def histograma(df, bin):
+    plt.hist(df, color="green",
+             histtype="bar", rwidth=0.25)
+    plt.grid(True)
+    plt.xlabel("Edad")
+    plt.ylabel("Frecuencia")
+    plt.title("Mi primer Histograma")
+    plt.show()
 
+histograma(df, 2)
 # opcion 2 
 
 #y_pos = np.arange(len(df))
@@ -39,23 +44,7 @@ df = pd.DataFrame({"x": [31,10,85,25,4,83,32,43,66,18,93,
 """sesgo positivo hacia la derecha"""
 
 # 3) ¿Qué pasa si cambiamos a tamaño de barra 5?
-df = pd.DataFrame({"x": [31,10,85,25,4,83,32,43,66,18,93,6,42,27,
-                        21,42,53,32,85,32,42,58,67,17,4,5]})
-                    
-plt.hist(df, bins=5, # modificando solo el número de barras
-        color="green",
-        histtype="bar",
-        rwidth= 0.75)
-# cuadrícula
-plt.grid(True)
-# Etiqueta del eje de la X
-plt.xlabel("Edad")
-# Etiqueta del eje de la Y
-plt.ylabel("Frecuencia")
-# titulo:
-plt.title("Mi segundo Histograma")
-# Mostrar el gráfico:
-#plt.show()
+
 
 #histograma(df,5)
 
@@ -63,15 +52,3 @@ plt.title("Mi segundo Histograma")
 ##histograma(df,20)
 
 #5) ¿Qué parece indicar el sesgo en la distribución?#
-df = pd.DataFrame({"x": [31,10,85,25,4,83,32,43,66,18,93,6,42,27,
-                        21,42,53,32,85,32,42,58,67,17,4,5]})
-
-def scatterPlot(df):
-    plt.scatter(df, label="años", marker="+", s=200)
-    plt.grid(True)
-    plt.xlabel("eje X")
-    plt.ylabel("Eje y")
-    plt.title("nube de puntos")
-    plt.legend()
-    plt.show()
-

@@ -70,4 +70,4 @@ Zscore = 1.41
 def puntos_Steve(Zscore, s, μ):
     return (Zscore * s) + μ
 
-print("Los puntos de Steve son:", puntos_Steve((Zscore, s, μ)))
+#print("Los puntos de Steve son:", puntos_Steve((Zscore, s, μ)))

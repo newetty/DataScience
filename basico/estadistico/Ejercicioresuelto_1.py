@@ -21,8 +21,8 @@ def histograma(df, bin):
     plt.title("Histograma con barra 2")
 
     plt.show()
-
-# histograma(df, 2)
+    
+histograma (df, 2)
 
 # 2) ¿Cuál es el número que más se repite?
 

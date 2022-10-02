@@ -5,7 +5,8 @@ def Zscore(µ, σ, x):
 # EJERCICIO 1
 
 """
-    En 2007-2008, la altura promedio de un jugador de baloncesto profesional fue de 2,00 metros con una desviación estándar de 0,02 metros. 
+    En 2007-2008, la altura promedio de un jugador de baloncesto profesional fue de 2,00 metros con una desviación estándar
+     de 0,02 metros. 
     Harrison Barnes es un jugador de baloncesto que mide 2,03 metros. ¿Qué porcentaje de jugadores son más altos que Barnes?
 """
 

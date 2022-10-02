@@ -15,7 +15,7 @@ def Zscore(µ, σ, x):
 
 # 3) µ = 0.01, s = 0.002, x = 0.01
 
-# print(Zscore(0.01, 0.002, 0.01))
+#print(Zscore(0.01, 0.002, 0.01))
 
 # EJERCICIO 2
 
@@ -26,8 +26,7 @@ def Zscore(µ, σ, x):
 µ = 3.2
 s= 0.3
 x = 2.8
-
-# print("GPA Jenny: ", Zscore(µ, s, x))
+#print("GPA Jenny: ", Zscore(µ, s, x))
 
 # EJERCICIO 3
 

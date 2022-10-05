@@ -7,7 +7,7 @@ from pydantic import BaseModel
 
 
 # Creamos nuestra primera aplicación FastAPI:
-app = FastAPI()
+#app = FastAPI()
 
 # doy la ruta donde se encuentra el dataset:
 #MEDIA_ROOT = "/home/isabel/FEI_projects/DataScience/media/iris.csv"
@@ -36,7 +36,7 @@ async def iris(response: Response):
         return data
     except:
         response.status_code = status.HTTP_404_NOT_FOUND
-        return "404 NOT FOUND"
+        #return "404 NOT FOUND"
 
 
 #TODO: Realizar los distintos metodos con el IRIS dataset:
@@ -73,7 +73,7 @@ async def insertData(item: Iris):
                          "petal_width": item.petal_width,
                          "species": item.species})
     # retornamos los valores que comprende la ultima fila añadida
-    return item
+    #return item
 
 # TODO: Método PUT actualizaremos el último dato insertado.
 # TODO: Método DELETE para eliminar ese último dato del archivo.

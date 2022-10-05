@@ -18,9 +18,8 @@ app = FastAPI()
 @app.get("/test/")
 async def test_1():
   # return "Bienvenido a FastAPI"
-
-@app.get("/iris/")
-async def iris(response: Response):
+  # @app.get("/iris/")
+  async def iris(response: Response):
     try:
         # Crear el dataframe con la información de iris:
         df = pd.read_csv(MEDIA_ROOT)
@@ -29,7 +28,7 @@ async def iris(response: Response):
         data = df.to_json(orient="index")
         # cargar la información con formato Json:
         data = json.loads(data)
-        return data
+        #return data
     except:
         response.status_code = status.HTTP_404_NOT_FOUND
         # return "404 NOT FOUND"

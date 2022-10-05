@@ -11,7 +11,7 @@ from pydantic import BaseModel
 
 # doy la ruta donde se encuentra el dataset:
 #MEDIA_ROOT = "iris.csv"
-MEDIA_ROOT = "/ettyqueiroz/Documentos/Datascience/iris.csv"
+# MEDIA_ROOT = "/ettyqueiroz/Documentos/Datascience/iris.csv"
 
 #Método GET a la url "/test/"
 # llamaremos a nuestra aplicación (<app name> + <método permitido>)

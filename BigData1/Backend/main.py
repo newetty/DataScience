@@ -7,17 +7,17 @@ from pydantic import BaseModel
 
 
 # Creamos nuestra primera aplicación FastAPI:
-app = FastAPI()
+#app = FastAPI()
 
 # doy la ruta donde se encuentra el dataset:
 #MEDIA_ROOT = "iris.csv"
-# MEDIA_ROOT = "/home/isabel/FEI_projects/DataScience/media/iris.csv"
+MEDIA_ROOT = "/ettyqueiroz/Documentos/Datascience/iris.csv"
 
 #Método GET a la url "/test/"
 # llamaremos a nuestra aplicación (<app name> + <método permitido>)
 @app.get("/test/")
 async def test_1():
-   # return "Bienvenido a FastAPI"
+   return "Bienvenido a FastAPI"
 
 @app.get("/iris/")
 async def iris(response: Response):

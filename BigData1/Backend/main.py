@@ -32,5 +32,5 @@ async def iris(response: Response):
         return data
     except:
         response.status_code = status.HTTP_404_NOT_FOUND
-        return "404 NOT FOUND"
+        # return "404 NOT FOUND"
 
